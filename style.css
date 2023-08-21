@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: white;
+}
+
+
+.top-left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.top-mid{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin: auto; */
+    border: none;
+    outline: none;
+}
+.search{
+    width: 60%;
+    padding: 10px 20px;
+}
+
+.top-btn{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.top-btn:hover{
+    background-color:gold;
+ 
+}
+
+
+.top-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-right>img,.top-right>p{
+    margin-left: 10px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+.navbar{
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar>a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+}
+
+.navbar>a:hover{
+    background-color:white;
+    color: black;
+
+}
+
+
+.hero-section{
+    background-image: url(images/joshua-chun-y_gFnFzr0HY-unsplash.jpg);
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.hero-content>h1{
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.hero-content>p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.hero-content>button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    /* border: none; */
+}
+
+.hero-content>button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.footer-section{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.foot-left{
+    width: 30%;
+    margin-left: 50px;
+}
+
+span>p{
+    font-size: 25px;
+    margin-top: 15px;
+    color: #C0C0C0;
+}
+
+
+.foot-mid{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.foot-mid-1>h2,.foot-mid-2>h2,.foot-right>h2{
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.foot-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-sub{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-sub{
+    padding: 10px 20px;
+}
+.foot-btn{
+    padding: 10px 20px;
+}
