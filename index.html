@@ -28,11 +28,11 @@
     <nav>
         <div class="navbar">
             <a href="#">HOME</a>
-            <a href="#">SHOP</a>
-            <a href="#">COLLECTION</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
-            <a href="#">ABOUT US</a>
+            <a href="#shop">SHOP</a>
+            <a href="#Collection">COLLECTION</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#fooot">ABOUT US</a>
         </div>
     </nav>
 <!-- hero section -->
@@ -44,9 +44,26 @@
         </div>
     </section>
 
+
+    <section class="shop-section" id="shop">
+        <h1>Shop For</h1>
+        <div class="shop-container">
+            <div class="shop-male">
+                <h2>Male</h2>
+                <img src="images/brock-wegner-7yONARoUsbY-unsplash.jpg" alt="">
+            </div>
+            <div class="shop-female">
+                <h2>Female</h2>
+                <img src="images/dom-hill-nimElTcTNyY-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
     <!-- Instagram Model Posts -->
-    <section class="model-section">
+    <section class="model-section" id="Collection">
+        <h1>Collection</h1>
         <div class="model-container">
+            
             <div class="model">
                 <img src="images/allef-vinicius-Pvn8iP3EAmE-unsplash.jpg" alt="">
             </div>
@@ -63,7 +80,7 @@
     </section>
 
     <!-- blog section -->
-    <section class="card-section">
+    <section class="card-section" id="blog">
         <h1>From The Blog</h1>
         <div class="card-container">
             <div class="card">
@@ -110,8 +127,39 @@
     </section>
 
 
+    <!-- Contact Us -->
+    <section class="contact-section" id="contact">
+        <div class="contact-img"></div>
+        <div class="contact-form">
+            <form action="">
+                <div class="cont-email">
+                <label for="">Email</label><br>
+                <input type="email" name="" id="" placeholder="Enter a valid email address">
+            </div>
+            <div class="firstLast">
+                <div class="cont-name">
+                <label for="">First Name</label><br>
+                <input type="text" name="" id="" placeholder="Enter your Frist Name"><br>
+            </div>
+            <div class="cont-name">
+                <label for="">Last Name</label><br>
+                <input type="text" name="" id="" placeholder="Enter your Last Name">
+            </div>
+            </div>
+            <div class="cont-email">
+                <label for="">Message</label><br>
+                <textarea placeholder="Enter your Message" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="contact-btn">
+                Submit
+            </button>
+            </form>
+        </div>
+    </section>
+
+
     <!-- footer section -->
-    <footer class="footer-section">
+    <footer class="footer-section" id="fooot">
         
         <div class="foot-left">
             <h1 class="logo">Fashi</h1>

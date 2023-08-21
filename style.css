@@ -146,6 +146,41 @@ nav{
 }
 
 
+
+/* Shop For */
+
+.shop-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(images/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+.shop-section>h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    background-color: black;
+    margin: 0px;
+}
+
+.shop-male>h2,.shop-female>h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.shop-male>img,.shop-female>img{
+    height: 800px;
+}
+
+.shop-male,.shop-female{
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
 /* Insta Section */
 
 .model-container{
@@ -161,6 +196,12 @@ nav{
     width: 100%;
 }
 
+
+.model-section>h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
 /* card section */
 
 .card-container{
@@ -218,6 +259,98 @@ margin-top: 10px;
 
 
 
+/* Contact Form */
+
+.contact-img{
+    width: 40%;
+    height: 500px;
+    background-image: url(https://community.themomproject.com/hubfs/Phone%20interview%20checklist.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-section{
+    display: flex;
+    background-color: rgb(200, 226, 247);
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    
+}
+
+.contact-form{
+    padding-bottom: 50px;
+    background-color: white;
+    width: 40%;
+}
+
+.cont-email{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.cont-email > input{
+    box-sizing: border-box;
+    width: 95%;
+    background-color: blanchedalmond;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 2%;
+}
+
+.cont-email>textarea{
+    box-sizing: border-box;
+    width: 95%;
+    background-color: blanchedalmond;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 2%;
+}
+
+.cont-email>label{
+    font-size: 30px;
+}
+
+.cont-name>input{
+    width: 280px;
+    background-color: blanchedalmond;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 2%;
+}
+
+.cont-name>label{
+    font-size: 30px;
+}
+
+.cont-name{
+    margin-top: 2%;
+}
+
+
+.firstLast{
+display: flex;
+justify-content: space-evenly;
+}
+
+.contact-btn{
+    margin-left: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2%;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: black;
+}
+
+/* Footer Section */
 .footer-section{
     color: white;
     background-color: black;
